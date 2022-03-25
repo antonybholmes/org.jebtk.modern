@@ -1,0 +1,3 @@
+[{"name":"txt","description":"Text", "filters":["txt"]},
+{"name":"tsv","description":"Text (tab delimited)", "filters":["tsv"]},
+{"name":"csv","description":"CSV (comma delimited)", "filters":["csv"]}]

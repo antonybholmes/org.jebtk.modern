@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <setting name="fonts" value="Inconsolata-Regular.ttf,Inter-Light.ttf,Inter-Regular.ttf,Inter-SemiBold.ttf" />
+  
+  <setting name="theme">
+    <setting name="constants">
+      <setting name="corner-radius" value="6" />
+    </setting>
+
+    <setting name="color-schemes">
+      <setting name="color-scheme-red">
+        <setting name="start-color" value="#cc000000" />
+        <setting name="end-color" value="#cc0000" />
+      </setting>
+      <setting name="color-scheme-green">
+        <setting name="start-color" value="#33996600" />
+        <setting name="end-color" value="#339966" />
+      </setting>
+      <setting name="color-scheme-blue">
+        <setting name="start-color" value="#3771c800" />
+        <setting name="end-color" value="#3771c8" />
+      </setting>
+      <setting name="color-scheme-orange">
+        <setting name="start-color" value="#cc330000" />
+        <setting name="end-color" value="#cc3300" />
+      </setting>
+      <setting name="color-scheme-purple">
+        <setting name="start-color" value="#6600ff00" />
+        <setting name="end-color" value="#6600ff" />
+      </setting>
+
+      <setting name="color-scheme-gray">
+        <setting name="start-color" value="#ffffff" />
+        <setting name="end-color" value="#4d4d4d" />
+      </setting>
+    </setting>
+
+    <setting name="highlight">
+      <setting name="background" value="#ffffff" />
+      <setting name="highlight-1" value="#f9f9f9" />
+      <setting name="highlight-2" value="#f2f2f2" />
+      <setting name="highlight-3" value="#ececec" />
+      <setting name="highlight-4" value="#e6e6e6" />
+      <setting name="highlight-5" value="#cccccc" />
+      <setting name="highlight-6" value="#b3b3b3" />
+      <setting name="highlight-7" value="#999999" />
+      <setting name="highlight-8" value="#808080" />
+      <setting name="highlight-9" value="#666666" />
+      <setting name="highlight-10" value="#999999" />
+    </setting>
+
+    <setting name="color-highlight">
+      <setting name="highlight-1" value="#0044aa37" />
+      <setting name="highlight-2" value="#0044aa50" />
+      <setting name="highlight-3" value="#0044aa69" />
+      <setting name="highlight-4" value="#0044aa82" />
+      <setting name="highlight-5" value="#0044aa9b" />
+      <setting name="highlight-6" value="#0044aab4" />
+      <setting name="highlight-7" value="#0044aacd" />
+      <setting name="highlight-8" value="#0044aae6" />
+      <setting name="highlight-9" value="#0044aaff" />
+      <setting name="highlight-10" value="#0044aa" />
+    </setting>
+
+    <setting name="dialog">
+      <setting name="background" value="#f2f2f2" />
+    </setting>
+
+    <setting name="background" value="#ffffff" />
+
+    <setting name="button">
+      <setting name="small-button">
+        <setting name="height" value="20" />
+      </setting>
+      <setting name="dimensions">
+        <setting name="default">
+          <setting name="width" value="80" />
+          <setting name="height" value="24" />
+        </setting>
+        <setting name="icon-text">
+          <setting name="width" value="100" />
+          <setting name="height" value="24" />
+        </setting>
+
+        <setting name="icon-only">
+          <setting name="width" value="24" />
+          <setting name="height" value="24" />
+        </setting>
+
+        <setting name="dropdown-icon-only">
+          <setting name="width" value="40" />
+          <setting name="height" value="24" />
+        </setting>
+
+        <setting name="side-button">
+          <setting name="width" value="18" />
+          <setting name="height" value="18" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="dialog-button">
+      <setting name="dimensions">
+        <setting name="icon-text">
+          <setting name="width" value="100" />
+          <setting name="height" value="28" />
+        </setting>
+
+        <setting name="icon-only">
+          <setting name="width" value="28" />
+          <setting name="height" value="28" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="default-dialog-button">
+      <setting name="background" value="#aaccff" />
+      <color name="highlight" value="#d5e5ff" />
+    </setting>
+
+    <setting name="widget">
+      <setting name="default-height" value="28" />
+      <setting name="padding" value="5" />
+
+      <setting name="borders">
+        <setting name="standard">
+          <setting name="north" value="5" />
+          <setting name="east" value="5" />
+          <setting name="south" value="5" />
+          <setting name="west" value="5" />
+        </setting>
+      </setting>
+
+      <setting name="fonts">
+        <setting name="text">
+          <setting name="family" value="Inter Light" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="material12" />
+        </setting>
+
+        <setting name="bold-text">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+
+        <setting name="monospace">
+          <setting name="family" value="Inconsolata" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+
+        <setting name="sub-sub-heading">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="14" />
+        </setting>
+
+        <setting name="title">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="42" />
+        </setting>
+
+        <setting name="title-bold">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="42" />
+        </setting>
+
+        <setting name="sub-title">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="30" />
+        </setting>
+
+        <setting name="heading">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="18" />
+        </setting>
+
+        <setting name="sub-heading">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="14" />
+        </setting>
+
+        <setting name="sub-heading-bold">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="14" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="material">
+      <setting name="fonts">
+        <setting name="text">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+        <setting name="bold">
+          <setting name="family" value="Inter SemiBold" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+        <setting name="title">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="36" />
+        </setting>
+        <setting name="subtext">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+        <setting name="sub-heading">
+          <setting name="family" value="Inter SemiBold" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="14" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="ribbon">
+      <setting name="fonts">
+        <setting name="tab">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="14" />
+        </setting>
+      </setting>
+
+      <color name="tab-color" value="#f5f5f5" />
+    </setting>
+
+    <setting name="ribbon-bar">
+      <setting name="color" value="#f9f9f9" />
+    </setting>
+
+    <setting name="ribbon-menu">
+      <setting name="fonts">
+        <setting name="text">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="12" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="menu">
+      <setting name="height" value="26" />
+      <setting name="width" value="200" />
+    </setting>
+
+    <setting name="input-pane">
+      <!-- Size of the right button in a input pane -->
+      <setting name="internal-button-size" value="24" />
+    </setting>
+
+    <setting name="ribbon-panel-button">
+      <setting name="background-color" value="#f9f9f9" />
+
+      <setting name="text-font">
+        <setting name="family" value="Inter Light" />
+        <setting name="style" value="plain" />
+        <setting name="size" value="12" />
+      </setting>
+    </setting>
+
+    <setting name="outlook-horizontal-tabs">
+      <setting name="fonts">
+        <setting name="text">
+          <setting name="family" value="Inter" />
+          <setting name="style" value="plain" />
+          <setting name="size" value="18" />
+        </setting>
+      </setting>
+    </setting>
+
+    <setting name="gradient-panel">
+      <setting name="color-1" value="#ffffff" />
+      <setting name="color-2" value="#f2f2f2" />
+    </setting>
+
+    <setting name="scrollpane">
+      <setting name="scrollbar">
+        <setting name="width" value="15" />
+        <setting name="timer-delay-ms" value="50" />
+        <setting name="min-step-size" value="0.001" />
+        <setting name="minor-step-size-scale" value="10" />
+      </setting>
+    </setting>
+
+    <setting name="activity-bar">
+      <setting name="dot-color" value="#5f8dd3" />
+      <setting name="width-scale" value="0.7" />
+    </setting>
+
+    <setting name="text-tabs">
+      <setting name="gap-width" value="20" />
+
+      <setting name="text-font">
+        <setting name="family" value="Inter" />
+        <setting name="style" value="plain" />
+        <setting name="size" value="14" />
+      </setting>
+
+      <setting name="text-font-bold">
+        <setting name="family" value="Inter" />
+        <setting name="style" value="plain" />
+        <setting name="size" value="14" />
+      </setting>
+    </setting>
+
+    <setting name="icons">
+      <setting name="warning-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffe680" locked="true" />
+          <setting name="border" value="#ffcc00" locked="true" />
+        </setting>
+      </setting>
+
+      <setting name="cross-icon">
+        <setting name="width-scale" value="0.5" />
+      </setting>
+
+      <setting name="save-icon">
+        <setting name="colors">
+          <setting name="background" value="#5f8dd3" />
+          <setting name="label" value="#ffffff" />
+        </setting>
+        <setting name="width-scale" value="1.0" />
+        <setting name="corner-scale" value="0.2" />
+      </setting>
+      <setting name="file-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#cccccc" />
+        </setting>
+        <setting name="height-scale" value="0.9" />
+        <setting name="width-scale" value="0.7" />
+        <setting name="corner-scale" value="0.4" />
+      </setting>
+      <setting name="folder-icon">
+        <setting name="colors">
+          <setting name="color1" value="#ffb380" />
+          <setting name="color2" value="#ffb380" />
+        </setting>
+        <setting name="width-scale" value="0.95" />
+        <setting name="offset" value="0.15" />
+        <setting name="corner-scale" value="0.2" />
+        <setting name="height-scale" value="0.9" />
+      </setting>
+      <setting name="plus-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.6" />
+      </setting>
+      <setting name="close-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.5" />
+      </setting>
+      <setting name="check-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.5" />
+        <setting name="tick-scale" value="0.3" />
+      </setting>
+      <setting name="radio-icon">
+        <setting name="scale" value="0.9" />
+      </setting>
+      <setting name="tree-branch-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.6" />
+      </setting>
+      <setting name="expand-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.6" />
+        <setting name="height-scale" value="0.4" />
+        <setting name="offset" value="0.1" />
+      </setting>
+      <setting name="download-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#87de87" />
+        </setting>
+      </setting>
+      <setting name="roundel-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.8" />
+        <setting name="line-scale" value="0.4" />
+        <setting name="arrow-scale" value="0.4" />
+      </setting>
+      <setting name="run-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.7" />
+      </setting>
+      <setting name="search-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.7" />
+        <setting name="glass-scale" value="0.8" />
+      </setting>
+      <setting name="filter-rows-icon">
+        <setting name="colors">
+          <setting name="highlight-2" value="#d7e3f4" />
+          <setting name="highlight-1" value="#87aade" />
+        </setting>
+      </setting>
+      <setting name="arrow-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+      </setting>
+      <setting name="down-triangle-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.8" />
+        <setting name="height-scale" value="0.5" />
+      </setting>
+      <setting name="triangle-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.5" />
+        <setting name="height-scale" value="0.5" />
+      </setting>
+      <setting name="hide-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.5" />
+        <setting name="height-scale" value="0.5" />
+      </setting>
+      <setting name="filter-icon">
+        <setting name="colors">
+          <setting name="foreground" value="#5599ff" />
+        </setting>
+        <setting name="height-scale" value="0.9" />
+        <setting name="width-scale" value="0.9" />
+        <setting name="lip-scale" value="0.1" />
+        <setting name="funnel-width-scale" value="0.25" />
+        <setting name="funnel-height-scale" value="0.5" />
+        <setting name="spout-scale" value="0.2" />
+      </setting>
+      <setting name="group-icon">
+        <setting name="colors">
+          <setting name="color1" value="#ff5555" />
+          <setting name="color2" value="#37c837" />
+          <setting name="color3" value="#5f8dd3" />
+        </setting>
+        <setting name="radius-scale" value="0.3" />
+        <setting name="ball-radius-scale" value="0.2" />
+      </setting>
+      <setting name="vertical-view-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+        <setting name="box-scale" value="0.4" />
+      </setting>
+      <setting name="wide-view-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="foreground" value="#666666" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+        <setting name="box-scale" value="0.25" />
+      </setting>
+      <setting name="cut-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="foreground" value="#666666" />
+          <setting name="handle" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+        <setting name="handle-scale" value="0.4" />
+      </setting>
+      <setting name="paste-icon">
+        <setting name="colors">
+          <setting name="board" value="#ffccaa" />
+          <setting name="clip" value="#b3b3b3" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+        <setting name="board-width-scale" value="0.7" />
+        <setting name="board-height-scale" value="0.8" />
+        <setting name="file-width-scale" value="0.7" />
+        <setting name="clip-width-scale" value="0.7" />
+        <setting name="clip-top-width-scale" value="0.5" />
+        <setting name="clip-hole-width-scale" value="0.2" />
+        <setting name="clip-height-scale" value="0.2" />
+      </setting>
+      <setting name="computer-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="tower" value="#999999" />
+          <setting name="monitor-outline" value="#5f8dd3" />
+          <setting name="monitor-background" value="#ffffff" />
+        </setting>
+        <setting name="width-scale" value="0.9" />
+        <setting name="tower-scale" value="0.5" />
+        <setting name="monitor-width-scale" value="0.8" />
+        <setting name="monitor-height-scale" value="0.6" />
+        <setting name="monitor-base-width-scale" value="0.4" />
+      </setting>
+      <setting name="clock-icon">
+        <setting name="colors">
+          <setting name="background" value="#ffffff" />
+          <setting name="hand" value="#999999" />
+          <setting name="outline" value="#5f8dd3" />
+        </setting>
+        <setting name="width-scale" value="0.8" />
+        <setting name="hand-scale-1" value="0.4" />
+        <setting name="hand-scale-2" value="0.3" />
+      </setting>
+      <setting name="settings-icon">
+        <setting name="width-scale" value="0.9" />
+        <setting name="line-width" value="0.3" />
+        <setting name="cog-scale" value="0.8" />
+      </setting>
+    </setting>
+  </setting>
+
+
+
+  <!-- Determines how many chars are rendered in a table grid cell -->
+  <setting name="ui.dataview.grid.cell.max-display-chars" value="128" />
+
+  <setting name="ui.recent-files.max-files" value="50" />
+
+  <setting name="modern.ui.window.decoration.style" value="default" />
+</settings>

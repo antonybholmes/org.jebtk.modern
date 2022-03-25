@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Modern Theme definition -->
+<!-- Copyright (C) Antony Holmes 2013. All rights reserved. -->
+
+<classes>
+	
+	<class name="collapse-pane">
+		<fonts>
+			<font name="text" family="Inter Light" style="plain" size="14"/>
+		</fonts>
+	</class>
+	<class name="text-tabs">
+		<int-constants>
+			<int-constant name="char-width" value="10"/>
+			<int-constant name="gap-width" value="20"/>
+		</int-constants>
+		<fonts>
+			<font name="text" family="Inter Light" style="plain" size="14"/>
+			<font name="bold-text" family="Inter Light" style="bold" size="14"/>
+		</fonts>
+	</class>
+	<class name="outlook-horizontal-tabs">
+		<fonts>
+			<font name="text" family="Inter Light" style="plain" size="18"/>
+		</fonts>
+	</class>
+	
+	<class name="ribbon-large-button">
+		<dimensions>
+			<dimension name="default" width="50" height="70"/>
+			<dimension name="wide" width="60" height="70"/>
+			<dimension name="extra-wide" width="70" height="70"/>
+		</dimensions>
+	</class>
+	<class name="menu">
+		<int-constants>
+			<int-constant name="height" value="26"/>
+			<int-constant name="width" value="150"/>
+			<int-constant name="max-chars" value="24"/>
+		</int-constants>
+	</class>
+	<class name="scrollpane">
+		<colors>
+			<color name="scrollbar-highlight" value="#ececec"/>
+			<color name="scrollbar-highlight-outline" value="#999999"/>
+		</colors>
+	</class>
+	<class name="scrollbar">
+		<int-constants>
+			<int-constant name="scrollbar-width" value="12"/>
+			<int-constant name="scrollbar-margin-width" value="20"/>
+		</int-constants>
+		<colors>
+			<color name="scrollbar-highlight" value="#ececec"/>
+			<color name="scrollbar-highlight-outline" value="#999999"/>
+		</colors>
+	</class>
+	<class name="splitpane-ellipsis">
+		<colors>
+			<color name="dot-color" value="#999999"/>
+		</colors>
+	</class>
+	<class name="activity-bar">
+		<colors>
+			<color name="dot-color" value="#5f8dd3"/>
+			<double-constants>
+				<double-constant name="width-scale" value="0.7"/>
+			</double-constants>
+		</colors>
+	</class>
+	<class name="modern-gradient">
+		<colors>
+			<color name="color-1" value="#ffffff"/>
+			<color name="color-2" value="#f2f2f2"/>
+		</colors>
+	</class>
+	<class name="ribbon-bar">
+		<colors>
+			<color name="color" value="#f9f9f9"/>
+		</colors>
+	</class>
+	<class name="help-button">
+		<fonts>
+			<font name="text" family="Inter" style="bold" size="14"/>
+		</fonts>
+	</class>
+	<class name="save-icon">
+		<colors>
+			<color name="background" value="#5f8dd3"/>
+			<color name="label" value="#ffffff"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="1.0"/>
+			<double-constant name="corner-scale" value="0.2"/>
+		</double-constants>
+	</class>
+	<class name="file-icon">
+		<colors>
+			<color name="foreground" value="#cccccc"/>
+		</colors>
+		<double-constants>
+			<double-constant name="height-scale" value="0.9"/>
+			<double-constant name="width-scale" value="0.7"/>
+			<double-constant name="corner-scale" value="0.4"/>
+		</double-constants>
+	</class>
+	<class name="folder-icon">
+		<colors>
+			<color name="color1" value="#ffb380"/>
+			<color name="color2" value="#ffb380"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.95"/>
+			<double-constant name="offset" value="0.15"/>
+			<double-constant name="corner-scale" value="0.2"/>
+			<double-constant name="height-scale" value="0.9"/>
+		</double-constants>
+	</class>
+	<class name="plus-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.6"/>
+		</double-constants>
+	</class>
+	<class name="close-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.5"/>
+		</double-constants>
+	</class>
+	<class name="check-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.5"/>
+			<double-constant name="tick-scale" value="0.3"/>
+		</double-constants>
+	</class>
+	<class name="tree-branch-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.5"/>
+		</double-constants>
+	</class>
+	
+	<class name="expand-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.6"/>
+			<double-constant name="height-scale" value="0.4"/>
+			<double-constant name="offset" value="0.1"/>
+		</double-constants>
+	</class>
+	<class name="download-icon">
+		<colors>
+			<color name="foreground" value="#87de87"/>
+		</colors>
+	</class>
+	<class name="roundel-icon">
+		<colors>
+			<color name="foreground" value="#5f8dd3"/>
+			<double-constants>
+				<double-constant name="width-scale" value="0.8"/>
+				<double-constant name="line-scale" value="0.4"/>
+				<double-constant name="arrow-scale" value="0.4"/>
+			</double-constants>
+		</colors>
+	</class>
+	<class name="run-icon">
+		<colors>
+			<color name="foreground" value="#5f8dd3"/>
+			<double-constants>
+				<double-constant name="width-scale" value="0.7"/>
+			</double-constants>
+		</colors>
+	</class>
+	<class name="search-icon">
+		<colors>
+			<color name="foreground" value="#5f8dd3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.7"/>
+			<double-constant name="glass-scale" value="0.8"/>
+		</double-constants>
+	</class>
+	<class name="filter-rows-icon">
+		<colors>
+			<color name="highlight-2" value="#d7e3f4"/>
+			<color name="highlight-1" value="#87aade"/>
+		</colors>
+	</class>
+	<class name="arrow-icon">
+		<colors>
+			<color name="foreground" value="#5f8dd3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.8"/>
+		</double-constants>
+	</class>
+	<class name="down-triangle-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.4"/>
+			<double-constant name="height-scale" value="0.5"/>
+		</double-constants>
+	</class>
+	<class name="hide-icon">
+		<colors>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.5"/>
+			<double-constant name="height-scale" value="0.5"/>
+		</double-constants>
+	</class>
+	<class name="filter-icon">
+		<colors>
+			<color name="foreground" value="#5599ff"/>
+		</colors>
+		<double-constants>
+			<double-constant name="height-scale" value="0.9"/>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="lip-scale" value="0.1"/>
+			<double-constant name="funnel-width-scale" value="0.25"/>
+			<double-constant name="funnel-height-scale" value="0.5"/>
+			<double-constant name="spout-scale" value="0.2"/>
+		</double-constants>
+	</class>
+	<class name="group-icon">
+		<colors>
+			<color name="color1" value="#ff5555"/>
+			<color name="color2" value="#37c837"/>
+			<color name="color3" value="#5f8dd3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="radius-scale" value="0.3"/>
+			<double-constant name="ball-radius-scale" value="0.2"/>
+		</double-constants>
+	</class>
+	<class name="vertical-view-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="box-scale" value="0.4"/>
+		</double-constants>
+	</class>
+	<class name="wide-view-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="foreground" value="#666666"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="box-scale" value="0.25"/>
+		</double-constants>
+	</class>
+	<class name="cut-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="foreground" value="#666666"/>
+			<color name="handle" value="#5f8dd3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="handle-scale" value="0.4"/>
+		</double-constants>
+	</class>
+	<class name="paste-icon">
+		<colors>
+			<color name="board" value="#ffccaa"/>
+			<color name="clip" value="#b3b3b3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="board-width-scale" value="0.7"/>
+			<double-constant name="board-height-scale" value="0.8"/>
+			<double-constant name="file-width-scale" value="0.7"/>
+			<double-constant name="clip-width-scale" value="0.7"/>
+			<double-constant name="clip-top-width-scale" value="0.5"/>
+			<double-constant name="clip-hole-width-scale" value="0.2"/>
+			<double-constant name="clip-height-scale" value="0.2"/>
+		</double-constants>
+	</class>
+	<class name="computer-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="tower" value="#999999"/>
+			<color name="monitor-outline" value="#5f8dd3"/>
+			<color name="monitor-background" value="#ffffff"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.9"/>
+			<double-constant name="tower-scale" value="0.5"/>
+			<double-constant name="monitor-width-scale" value="0.8"/>
+			<double-constant name="monitor-height-scale" value="0.6"/>
+			<double-constant name="monitor-base-width-scale" value="0.4"/>
+		</double-constants>
+	</class>
+	
+	<class name="clock-icon">
+		<colors>
+			<color name="background" value="#ffffff"/>
+			<color name="hand" value="#999999"/>
+			<color name="outline" value="#5f8dd3"/>
+		</colors>
+		<double-constants>
+			<double-constant name="width-scale" value="0.8"/>
+			<double-constant name="hand-scale-1" value="0.4"/>
+			<double-constant name="hand-scale-2" value="0.3"/>
+		</double-constants>
+	</class>
+
+</classes>

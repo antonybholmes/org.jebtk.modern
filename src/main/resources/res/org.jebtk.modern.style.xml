@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+  <class name="component">
+    <property name="padding" value="5" />
+    <property name="border-radius" value="0" />
+  </class>
+
+  <class name="rect">
+    <property name="border-radius" value="0" />
+  </class>
+
+  <class name="square-borders">
+    <inherits class="rect" />
+  </class>
+
+
+  <class name="rounded-rect">
+    <property name="border-radius" value="4" />
+  </class>
+
+  <class name="pill">
+    <property name="border-radius" value="1024" />
+  </class>
+	
+  <class name="panel">
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="widget">
+    <property name="background-color" value="colors.material.window.background" />
+  </class>
+	
+  <class name="button">
+    <inherits class="widget" />
+    <inherits class="rounded-rect" />
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="ribbon">
+    <property name="background-color" value="white" />
+    <property name="border-radius" value="0" />
+  </class>
+  
+  <class name="ribbon-button">
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="card">
+    <!-- <property name="border-radius" value="8" /> -->
+    <!-- <property name="border-color" value="colors.gray-32.color-3" /> -->
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="content">
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="content-outline">
+    <property name="border-color" value="colors.gray-32.color-4" />
+    <property name="border-width" value="1" />
+  </class>
+
+  
+
+  <class name="content-outline-highlight">
+    <inherits class="content-outline" />
+    <property name="border-color" value="colors.gray-32.color-8" />
+  </class>
+
+  <class name="content-box">
+    <inherits class="content" />
+    <inherits class="content-outline" />
+  </class>
+  
+  <class name="spinner">
+    <inherits class="content-box" />
+    <inherits class="rounded-rect" />
+  </class>
+  
+  <class name="text-box">
+    <inherits class="content-box" />
+    <inherits class="rounded-rect" />
+  </class>
+
+  <class name="outlined-dialog-button">
+    <inherits class="content" />
+    <inherits class="content-outline" />
+  </class>
+
+  <class name="gray-button">
+    <inherits class="button" />
+    <property name="background-color" value="colors.material.dialog.button.outline" />
+  </class>
+
+  <class name="primary-dialog-button">
+    <inherits class="button" />
+    <property name="border-color" value="colors.theme-32.color-24" />
+    <property name="background-color" value="colors.theme-32.color-20" />
+  </class>
+
+  <class name="dialog-button">
+    <inherits class="button" />
+    <property name="background-color" value="colors.material.window.background" />
+  </class>
+
+  <class name="checkbox">
+    <property name="background-color" value="white" />
+    <property name="border-color" value="colors.gray-32.color-6" />
+    <property name="border-radius" value="0" />
+  </class>
+
+  <class name="check-switch">
+    <property name="background-color" value="colors.gray-32.color-4" />
+    <property name="border-color" value="colors.gray-32.color-8" />
+  </class>
+
+  <class name="quick-access-button">
+    <inherits class="button" />
+  </class>
+  
+  <class name="theme-button">
+    <inherits class="button" />
+  </class>
+  
+  <class name="dialog-theme-button">
+    <inherits class="button" />
+    <property name="background-color" value="colors.material.window.background" />
+  </class>
+
+  <class name="combobox">
+    <property name="background-color" value="white" />
+  </class>
+
+  <class name="slider">
+    <property name="background-color" value="colors.theme-32.color-16" />
+  </class>
+  
+  <class name="url-text-button">
+    <property name="border-width" value="1" />
+    <property name="background-color" value="transparent" />
+  </class>
+
+  <keyframe index="to">
+    <class name="primary-dialog-button">
+      <property name="border-color" value="colors.theme-32.color-28" />
+      <property name="background-color" value="colors.theme-32.color-24" />
+    </class>
+
+    <class name="checkbox">
+      <property name="background-color" value="colors.theme-32.color-14" />
+    </class>
+
+    <class name="check-switch">
+      <property name="background-color" value="colors.theme-32.color-14" />
+      <property name="border-color" value="colors.theme-32.color-14" />
+    </class>
+
+    <class name="content-outline-highlight">
+      <property name="border-color" value="colors.gray-32.color-20" />
+    </class>
+
+    <class name="ribbon-button">
+      <property name="background-color" value="colors.material.dialog.button.outline" />
+    </class>
+
+    <class name="outlined-dialog-button">
+      <property name="background-color" value="colors.material.dialog.button.outline" />
+    </class>
+
+    <class name="combobox">
+      <property name="background-color" value="white" />
+      <property name="alt-background-color" value="colors.material.dialog.button.outline" />
+    </class>
+
+    <class name="dialog-button">
+      <property name="background-color" value="colors.material.dialog.button.outline" />
+    </class>
+
+    <class name="theme-button">
+      <property name="background-color" value="colors.theme-32.color-14" />
+    </class>
+    
+    <class name="url-text-button">
+      <property name="border-bottom-color" value="colors.theme-32.color-32" />
+    </class>
+    
+    <class name="dialog-theme-button">
+      <property name="background-color" value="colors.theme-32.color-16" />
+    </class>
+
+    <!-- <class name="widget"> -->
+    <!-- <property name="border-color" -->
+    <!-- value="colors.material.gray-highlight" /> -->
+    <!-- <property name="background-color" -->
+    <!-- value="colors.material.gray-highlight" /> -->
+    <!-- </class> -->
+		
+    <class name="widget">
+      <property name="background-color" value="colors.material.dialog.button.outline" />
+    </class>
+
+    <class name="outline">
+      <property name="background-color" value="none" />
+    </class>
+
+    <class name="quick-access-button">
+      <property name="background-color" value="colors.material.gray-highlight" />
+      <property name="border-radius" value="0" />
+    </class>
+
+    <class name="content-outline">
+      <property name="border-color" value="colors.material.dialog.button.highlight" />
+    </class>
+
+    <class name="slider">
+      <property name="background-color" value="colors.theme-32.color-24" />
+    </class>
+
+  </keyframe>
+
+</classes>
